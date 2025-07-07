@@ -597,6 +597,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "openai" },
     { name = "openai-agents" },
+    { name = "pexpect" },
     { name = "pydantic" },
 ]
 
@@ -608,6 +609,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "openai", specifier = ">=1.90.0" },
     { name = "openai-agents", specifier = ">=0.0.19" },
+    { name = "pexpect", specifier = ">=4.9.0" },
     { name = "pydantic", specifier = ">=2.11.7" },
 ]
 

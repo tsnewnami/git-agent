@@ -17,6 +17,7 @@ This code is not optimal and could be improved such as:
 - Using logging
 - More robust error handling when container exec commands fail
 - Using a better sandboxed environment such as e2b
+- Could likely do chaining of tool calls using `&&` however this task was targetted at multi-turn tool use.
 
 ## Course questions
 
@@ -32,7 +33,7 @@ What roadblocks did you run into?s
 
 Which evaluation methods worked best for your task?
 
-- Running commands against the artifacts output from the agent, this is objective verifability.
+- Running unix commands against the artifacts output from the agent, this is objective verifability. E.g. `ls -a` to verify existance of `.git` file.
 
 What's the smallest model that worked decently well?
 

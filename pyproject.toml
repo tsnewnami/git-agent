@@ -11,5 +11,6 @@ dependencies = [
     "ipykernel>=6.29.5",
     "openai>=1.90.0",
     "openai-agents>=0.0.19",
+    "pexpect>=4.9.0",
     "pydantic>=2.11.7",
 ]
